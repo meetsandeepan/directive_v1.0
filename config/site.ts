@@ -1,18 +1,22 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Next.js",
+  name: "Directive Database",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "A collection of Radiation Therapy Treatment Directives",
   mainNav: [
     {
-      title: "Home",
+      title: "Dashboard",
       href: "/",
+    },
+    {
+      title: "Documentation",
+      href: "/documentation",
     },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
+    twitter: "https://twitter.com/meetsandeepan",
+    github: "https://github.com/meetsandeepan",
     docs: "https://ui.shadcn.com",
   },
 }
